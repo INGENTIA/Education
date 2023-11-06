@@ -1,0 +1,40 @@
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-size: 13 px;
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+
+header {
+
+    width: 100%;
+    height: 60px;
+
+}
+/* Buscar una etiqueta nav dentro de la etiqueta header */
+header nav {
+
+    display: flex; /* Set the display mode to flex to enable flexbox layout */
+    justify-content: flex-end;/* Align items along the horizontal axis to the right */
+
+}
+
+header nav .nav-right-section {
+
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+
+    margin-right: 10px;
+    color: #000000;
+
+}
