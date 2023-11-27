@@ -454,7 +454,7 @@ main {
 }
 .main-plans-container {
 
-    width: 100px;
+    width: 100%;
     min-width: 320px;
     padding-bottom: 70px;
     text-align: center;
